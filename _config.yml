@@ -2,7 +2,7 @@ title: Bonsai @ Neuronautas 2021
 description: A course on Visual Reactive Programming using Bonsai, developed by NeuroGEARS, Ltd.
 google_analytics:
 theme: minima
-baseurl: "/neuronautas-2021"
+baseurl: "/intro-bonsai"
 
 twitter_username: bonsai_rx
 github_username:  neurogears

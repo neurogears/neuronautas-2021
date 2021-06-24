@@ -305,7 +305,7 @@ On the nature of systems neuroscience tools:
 ![Bonsai](./assets/images/bonsai-lettering.svg)
 
 ### Questions?
-[neurogears.org/vrp-2021](https://neurogears.org/neuronautas-2021)
+[neuronautas.github.io/intro-bonsai](https://neuronautas.github.io/intro-bonsai)
 <table style="width: 100%;">
   <tr>
     <th style="vertical-align: middle; width: 33%; height: 100px; padding-left: 100px">
