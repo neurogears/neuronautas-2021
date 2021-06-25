@@ -9,6 +9,7 @@ title: Introduction to Bonsai
 ![Bonsai](./assets/images/bonsai-lettering.svg)
 
 ### Introduction to Bonsai
+[neuronautas.github.io/intro-bonsai](https://neuronautas.github.io/intro-bonsai)
 
 <table style="width: 100%;">
   <tr>
