@@ -29,7 +29,7 @@ title: Introduction to Bonsai
 
 ### Neuroscience needs makers & hackers
 
-On the nature of systems neuroscience tools:
+On the nature of field neuroscience tools:
 
 * Accessible
 <!-- .element: class="fragment" data-fragment-index="1" -->
@@ -52,70 +52,7 @@ On the nature of systems neuroscience tools:
 
 ![Applications in Neuroscience](./assets/images/bonsai-applications.svg)
 
-</script>
-</section>
-
-<!-- Raw HTML for embedded iframe backgrounds -->
-<section data-background="#000000">
-    <section data-background-iframe="https://www.youtube.com/embed/jKB0d9vsfgA?controls=0&amp;enablejsapi=1&amp;autoplay=1&amp;loop=1&amp;start=108&amp;playlist=jKB0d9vsfgA&amp;showinfo=0&amp;rel=0&amp;html5=1">
-      <table style="height: 20%; margin-top: 65%; margin-left: -78px;">
-        <tr><th>.txt interactive digital performance</th></tr>
-      </table>
-    </section>
-    <section data-background-iframe="https://www.youtube.com/embed/4q9mFkZ3J_g?controls=0&amp;enablejsapi=1&amp;autoplay=1&amp;loop=1&amp;playlist=4q9mFkZ3J_g&amp;showinfo=0&amp;rel=0&amp;html5=1">
-      <table style="height: 20%; margin-top: 65%; margin-left: -78px;">
-        <tr><th>Elena Dreosti, UCL</th></tr>
-      </table>
-    </section>
-    <section data-background-iframe="https://www.youtube.com/embed/wwU6TzUJxNU?controls=0&amp;enablejsapi=1&amp;autoplay=1&amp;loop=1&amp;playlist=wwU6TzUJxNU&amp;showinfo=0&amp;rel=0&amp;html5=1">
-      <table style="height: 20%; margin-top: 65%; margin-left: -78px;">
-        <tr><th>Gonçalo Lopes, Kampff Lab</th></tr>
-      </table>
-    </section>
-    <section data-background-iframe="https://www.youtube.com/embed/qXqAXgXJPmo?controls=0&amp;enablejsapi=1&amp;autoplay=1&amp;showinfo=0&amp;rel=0&amp;html5=1">
-      <table style="height: 20%; margin-top: 65%; margin-left: -78px;">
-        <tr><th>Lorenza Calcaterra, Kampff Lab</th></tr>
-      </table>
-    </section>
-    <section data-background-iframe="https://www.youtube.com/embed/mJDV07ptQFk?start=40&amp;controls=0&amp;enablejsapi=1&amp;autoplay=1&amp;showinfo=0&amp;rel=0&amp;html5=1">
-      <table style="height: 20%; margin-top: 65%; margin-left: -78px;">
-        <tr><th>George Dimitriadis, Kampff Lab</th></tr>
-      </table>
-    </section>
-</section>
-
-<section data-markdown data-separator="^\n---\n$" data-separator-vertical="^\n--\n$">
-<script type="text/template">
-
-![Bonsai Ecosystem](./assets/images/bonsai-packages.svg)
-
-</script>
-</section>
-
-<!-- Raw HTML for embedded iframe backgrounds -->
-<section>
-  <section>
-    <h4>Real-time markerless pose estimation</h4>
-    <img src="./assets/images/bonsai-dlc.svg" alt="Bonsai-DeepLabCut" />
-    <iframe src="https://www.youtube.com/embed/0aachcS0CUY?controls=0&amp;enablejsapi=1&amp;autoplay=1&amp;loop=1&amp;playlist=0aachcS0CUY&amp;showinfo=0&amp;rel=0&amp;html5=1" width="500px" height="300px"></iframe>
-    <a href="https://github.com/bonsai-rx/deeplabcut/">github.com/bonsai-rx/deeplabcut</a>
-  </section>
-  <section>
-    <h4>Interactive visual environments</h4>
-    <img src="./assets/images/bonsai-bonvision.svg" alt="BonVision" />
-    <img src="https://bonvision.github.io/assets/Images/Demos/DemoAR_v3.gif" width="50%" alt="Augmented Reality in BonVision" />
-    <a href="https://bonvision.github.io/">bonvision.github.io</a>
-  </section>
-  <section>
-    <h4>Multi-animal tracking</h4>
-    <img src="./assets/images/bonsai-bonzeb.svg" alt="BonZeb" />
-    <video data-autoplay src="https://github.com/ncguilbeault/BonZeb/raw/master/Videos/Supplemental%20Video%203%20-%20Multi%20Animal%20OMR.mp4"></video>
-    <a href="https://ncguilbeault.github.io/BonZeb/">ncguilbeault.github.io/BonZeb</a>
-  </section>
-</section>
-
-<section data-markdown data-separator="^\n---\n$" data-separator-vertical="^\n--\n$">
-<script type="text/template">
+---
 
 ![Bonsai workflow editor](./assets/images/editor.jpg)
 
@@ -251,27 +188,9 @@ On the nature of systems neuroscience tools:
 
 ---
 
-###### SkipUntil
-
-![SkipUntil](./assets/images/skipuntil.svg)
-
----
-
-###### TakeUntil
-
-![TakeUntil](./assets/images/takeuntil.svg)
-
----
-
 ###### Delay
 
 ![Delay](./assets/images/delay.svg)
-
----
-
-###### DelaySubscription / SubscribeWhen
-
-![DelaySubscription](./assets/images/delaysubscription.svg)
 
 ---
 
@@ -287,21 +206,100 @@ On the nature of systems neuroscience tools:
 
 ---
 
-###### CombineLatest
+### Sharing observable sequences
 
-![CombineLatest](./assets/images/combinelatest.svg)
+![Branching](./assets/images/branching-simple.svg)
+<!-- .element: style="display: inline-block; vertical-align: top;" -->
+![Subjects (Publish)](./assets/images/subjects-publish-simple.svg)
+<!-- .element: class="fragment" style="display: inline-block; vertical-align: top; padding-left: 120px;" -->
 
 ---
 
-###### WithLatestFrom
+<!-- .element: data-transition="default none" -->
+###### Transform
 
-![WithLatestFrom](./assets/images/withlatestfrom.svg)
+![Transform](./assets/images/transform.svg)
 
-</script>
-</section>
+--
 
-<section data-markdown data-separator="^\n---\n$" data-separator-vertical="^\n--\n$">
-<script type="text/template">
+<!-- .element: data-transition="default none" -->
+###### Select
+
+![Select](./assets/images/select.svg)
+
+--
+
+<!-- .element: data-transition="none default" -->
+###### SelectMany
+
+![SelectMany](./assets/images/selectmany.svg)
+
+--
+
+<!-- .element: data-transition="none default" -->
+###### SelectMany: Play audio on cue
+
+![SelectMany](./assets/images/selectmany-playsound-1.svg)
+
+--
+
+<!-- .element: data-transition="none default" -->
+###### SelectMany: Play audio on cue
+
+![SelectMany](./assets/images/selectmany-playsound-2.svg)
+
+---
+
+### Representing discrete states
+
+**State**
+<!-- .element: class="fragment" data-fragment-index="1" style="display: inline-block; vertical-align: middle;" -->
+
+<small>"the particular condition that someone or something is in at a specific time"</small>
+<!-- .element: class="fragment" data-fragment-index="1" style="display: inline-block; vertical-align: middle;" -->
+<small>"a physical condition as regards internal or molecular form or structure"</small>
+<!-- .element: class="fragment" data-fragment-index="2" style="display: inline-block; vertical-align: middle;" -->
+
+**Event**
+<!-- .element: class="fragment" data-fragment-index="3" style="display: inline-block; vertical-align: middle;" -->
+
+<small>"a thing that happens or takes place, especially one of importance"</small>
+<!-- .element: class="fragment" data-fragment-index="3" style="display: inline-block; vertical-align: middle;" -->
+<small>"a single occurrence of a process, e.g. the ionization of one atom"</small>
+<!-- .element: class="fragment" data-fragment-index="4" style="display: inline-block; vertical-align: middle;" -->
+
+<small>source: <a href="https://en.oxforddictionaries.com/">Oxford English Living Dictionaries</a></small>
+<!-- .element: class="fragment" data-fragment-index="1" style="display: inline-block; position: absolute; right: 0px;" -->
+
+--
+
+#### Working Definition
+
+**State** → Extended
+
+**Event** → Punctate
+
+---
+
+<!-- .element: data-transition="default none" -->
+![SelectMany](./assets/images/selectmany-events-hidden.svg)
+
+--
+
+<!-- .element: data-transition="none none" -->
+![SelectMany](./assets/images/selectmany-events-in.svg)
+
+--
+
+<!-- .element: data-transition="none none" -->
+![SelectMany](./assets/images/selectmany-states.svg)
+
+--
+
+<!-- .element: data-transition="none default" -->
+![SelectMany](./assets/images/selectmany-events-out.svg)
+
+---
 
 ![Bonsai](./assets/images/bonsai-lettering.svg)
 
